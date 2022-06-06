@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(253, 236, 215);
+    font-family: monospace;
+    color: brown;
+    font-size: 20px;
+}
+#unorderedList1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+    font-family: monospace;
+    font-size: 20px;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(253, 236, 215);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(253, 236, 215);
+    color: brown;
+    font-size: 23px;
+}
+#photo1 {
+    margin: 20px;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+}
+#photo2 {
+    width: 200px;
+    height: auto;
+    float: left;
+    display: absolute;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+#part1 {
+    width: 75%;
+    height: 250px;
+    position: absolute;
+    top: 135px;
+    left: 250px;
+    margin: 20px;
+    background-color: rgb(255, 250, 233);
+    border-radius: 15px;
+}
+#part2 {
+    background-color:  rgb(255, 250, 233);
+    width: 75%;
+    height: 250px;
+    position: absolute;
+    top: 435px;
+    left: 250px;
+    margin: 20px;
+}
+#club {
+    padding-top: 250px;
+    padding-left: 30px;
+}
