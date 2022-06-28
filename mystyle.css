@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(253, 236, 215);
+    font-family: monospace;
+    color: brown;
+    font-size: 20px;
+}
+#unorderedList1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+    font-family: monospace;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+#unorderedList2 {
+    line-height: 35px;
+}
+#unorderedList3 {
+    line-height: 25px;
+    padding-left: 70px;
+}
+.navigationBar {
+    float: left;
+}
+.navigationBar a {
+    display: block;
+    color: rgb(253, 236, 215);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: height 0.75s;
+}
+.navigationBar a:hover {
+    background-color: rgb(253, 236, 215);
+    color: brown;
+    height: 23px;
+    
+}
+#photo1 {
+    margin: 20px;
+    width: 210px;
+    height: auto;
+    border-radius: 25%;
+    float: left;
+}
+#photo2 {
+    height: 300px;
+    border-radius: 25%;
+}
+#photo3 {
+    height: 280px;
+    width: 210px;
+    border-radius: 25%;
+}
+#photo4 {
+    padding-left: 50px;
+}
+#photo5 {
+    padding-left: 50px;
+}
+#photo6 {
+    padding-left: 50px;
+}
+
+#part1 {
+    width: 75%;
+    height: 305px;
+    position: absolute;
+    top: 160px;
+    left: 250px;
+    margin: 20px;
+    background-color: rgb(255, 250, 233);
+    border-radius: 15px;
+}
+#part2 {
+    background-color:  rgb(255, 250, 233);
+    width: 75%;
+    height: 305px;
+    position: absolute;
+    top: 500px;
+    left: 250px;
+    margin: 20px;
+    border-radius: 15px;
+}
+#part3 {
+    background-color:  rgb(255, 250, 233);
+    width: 75%;
+    height: 295px;
+    position: absolute;
+    top: 850px;
+    left: 250px;
+    margin: 20px;
+    border-radius: 15px;
+}
+#part4 {
+    background-color:  rgb(255, 250, 233);
+    position: absolute;
+    left: 45px;
+    height: 270px;
+    width: 300px;
+    border-radius: 25%;
+}
+#part5 {
+    background-color:  rgb(255, 250, 233);
+    position: absolute;
+    left: 405px;
+    height: 270px;
+    width: 375px;
+    border-radius: 25%;
+}
+#part6 {
+    background-color:  rgb(255, 250, 233);
+    position: absolute;
+    left: 845px;
+    height: 375px;
+    width: 270px;
+    border-radius: 25%;
+}
+#club {
+    padding-top: 250px;
+    padding-left: 30px;
+}
+#list {
+    position: absolute;
+    display: block;
+}
+#changeColor {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+#changeColor:hover {
+    color: brown;
+}
+.socialMedia {
+    height: 40px;
+    padding-right: 7px;
+}
+.socialMedia:hover {
+    height: 42px;
+}
